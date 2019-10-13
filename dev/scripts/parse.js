@@ -15,4 +15,4 @@ const plsItems = items.map( (item, index) => `Title${index+1}=${item.title}\nFil
 const pls = `${plsHeader}\n${plsItems}`
 
 // write to disk
-fs.writeFile("Aerial.pls", pls, (error) => error && console.log(error))
+fs.writeFile("Aerials.pls", pls, (error) => error && console.log(error))
